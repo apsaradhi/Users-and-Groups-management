@@ -39,15 +39,16 @@ Sets or changes the password for `user1`.
 
 ---
 
-## Step 3: Modify a User
+## Step 3: renaming username
 
 ```bash
-usermod -c "Linux User" user1
+usermod -l "Linux User" user1
 ```
 
 ### What it does
 
-Modifies user account information. The `-c` option adds or changes the user's comment/full-name field.
+
+renaming username from old to new
 
 ---
 
