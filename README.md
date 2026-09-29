@@ -39,20 +39,11 @@ Sets or changes the password for `user1`.
 
 ---
 
-## Step 3: renaming username
 
-```bash
-usermod -l "Linux User" user1
-```
-
-### What it does
-
-
-renaming username from old to new
 
 ---
 
-## Step 4: Create a Group
+## Step 3: Create a Group
 
 ```bash
 groupadd developers
@@ -64,7 +55,7 @@ Creates a new group named `developers`.
 
 ---
 
-## Step 5: Add User to a Group
+## Step 4: Add User to a Group
 
 ```bash
 usermod -aG developers user1
@@ -85,7 +76,7 @@ groups user1
 
 ---
 
-## Step 6: Remove a User
+## Step 5: Remove a User
 
 ```bash
 userdel user1
@@ -97,7 +88,7 @@ Deletes the user account from the system.
 
 ---
 
-## Step 7: Configure Sudo Access
+## Step 6: Configure Sudo Access
 
 Add the user to the administrative group.
 
@@ -119,7 +110,7 @@ Allows the user to execute administrative commands through `sudo`, subject to th
 
 ---
 
-## Step 8: Verify User and Group Information
+## Step 7: Verify User and Group Information
 
 ```bash
 id user1
