@@ -1,4 +1,3 @@
-# Users-and-Groups-management
 
 # Linux Users and Groups Management
 
